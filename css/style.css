@@ -57,9 +57,8 @@ a{
     background: transparent;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
-    width: 77px;
-    height: 27px;
     cursor: pointer;
+    padding: 4px 20px 4px 21px;
 }
 .hero{
     display: flex;
@@ -319,6 +318,7 @@ a{
 @media (max-width: 700px) {
 .header{
     flex-wrap: wrap;
+    justify-content: center;
 }
 .hero__container{
     flex-direction: column;
@@ -359,7 +359,8 @@ a{
     display: none;
 }
 .top__h1{
-    font-size: 50px;
+    font-size: 25px;
+    line-height: 30px;
 }
 .footer__login-item{
     flex-wrap: wrap;
